@@ -1,0 +1,7 @@
+opencv-python>=4.8.0
+mediapipe>=0.10.0,<0.10.10
+PyQt5>=5.15.0
+numpy>=1.24.0
+
+# 打包用（可选）
+pyinstaller>=6.0.0

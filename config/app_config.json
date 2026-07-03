@@ -1,0 +1,22 @@
+{
+  "camera": {
+    "device_id": 0,
+    "resolution": [1280, 720],
+    "target_fps": 30,
+    "mirror": true
+  },
+  "filter": {
+    "dead_zone_deg": 5.0,
+    "ema_alpha": 0.3,
+    "hold_timeout_ms": 500
+  },
+  "pose": {
+    "arm": "right",
+    "detection_confidence": 0.5,
+    "tracking_confidence": 0.5
+  },
+  "logging": {
+    "angle_log_enabled": true,
+    "log_dir": "logs"
+  }
+}

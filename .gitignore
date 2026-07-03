@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+*.spec
+
+# 虚拟环境
+.conda/
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 日志（保留目录结构）
+logs/*
+!logs/.gitkeep
+
+# 测试视频（大文件，不上传）
+test_videos/
+*.mp4
+*.avi
+*.mov
+
+# 系统
+.DS_Store
+Thumbs.db
